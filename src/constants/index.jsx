@@ -3,22 +3,22 @@ export const features = [
     id: "0",
     icon: "/images/feature-1.png",
     caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    title: "Code Smarter, Not Harder",
+    text: "DevLaunch streamlines development with advanced tools and automation, letting you focus on innovation while we boost your team's efficiency.",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+      title: "SEE OUR TOOLS",
     },
   },
   {
     id: "1",
     icon: "/images/feature-2.png",
     caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    title: "Secure Solutions You Can Trust",
+    text: "Your project security is our top priority. With advanced encryption and robust protocols, DevLaunch ensures that your code and data are protected at every stage of development.",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: "LEARN MORE",
     },
   },
 ];
@@ -27,17 +27,17 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "AI-Driven Automation",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "Seamless Collaboration",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "High-Speed Cloud Solutions",
   },
   {
     id: "3",
@@ -49,70 +49,70 @@ export const details = [
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "How easy is it to get started with DevLaunch?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Getting started with DevLaunch is straightforward. Our onboarding process is smooth, and you can have your development project underway in just a few steps.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: " Can I integrate DevLaunch with other platforms?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, DevLaunch seamlessly integrates with a wide range of platforms including GitHub, AWS, and other cloud services to streamline your development workflow.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "How often do you update features?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "We release regular updates based on user feedback and evolving technology trends, ensuring your projects benefit from the latest features and security patches.",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "What is your refund policy?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "If you're not satisfied with our service within the first 30 days, we offer a full refund, no questions asked.",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "Do you offer corporate development plans?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, we offer custom corporate plans tailored to the specific needs of large organizations, including dedicated development teams and priority support.",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: "What happens when my project outgrows storage limits?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "If your project exceeds storage limits, we offer flexible upgrades, so you can easily scale without interrupting your workflow.",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
+    question: "Can I upgrade my plan as my team grows?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely. You can upgrade your plan at any time to accommodate more features, storage, or additional team members.",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
+    question: "How do I invite my team to collaborate on a project?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Inviting your team is easy. Simply add their email addresses, and they'll receive an invitation to join and collaborate on your development project instantly.",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
+    question: "Do you provide training for teams?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, we offer comprehensive training programs for both individuals and teams, covering best practices in development and DevOps workflows.",
   },
   {
     id: "9",
     question: "I’m locked out of my account what do I do?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "If you're locked out, contact our 24/7 support team. We'll help you recover access quickly through our secure recovery process.",
   },
 ];
 
 export const plans = [
   {
     id: "0",
-    title: "Core",
+    title: "App",
     priceMonthly: 19,
     priceYearly: 12,
     caption: "Best for solo creators",
@@ -127,7 +127,7 @@ export const plans = [
   },
   {
     id: "1",
-    title: "Overdrive",
+    title: "App & Website",
     priceMonthly: 79,
     priceYearly: 59,
     caption: "Most popular plan",
@@ -142,7 +142,7 @@ export const plans = [
   },
   {
     id: "2",
-    title: "Team",
+    title: "Website",
     priceMonthly: 39,
     priceYearly: 29,
     caption: "Exclusively for teams",
@@ -164,7 +164,7 @@ export const testimonials = [
     role: "Globalnomads",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "DevLaunch's development support is unparalleled! They’re my go-to tech heroes, always there when my project needs them.",
   },
   {
     id: "1",
@@ -172,7 +172,7 @@ export const testimonials = [
     role: "Vid capital intl",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+      "At first, I wasn’t sure about switching, but now I can’t imagine handling our app development without DevLaunch. It’s transformative.",
   },
   {
     id: "2",
@@ -180,7 +180,7 @@ export const testimonials = [
     role: "Cyberleap",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "After switching to DevLaunch, we saw an immediate improvement in our workflow. It's been the best move for our dev team!",
   },
   {
     id: "3",
@@ -188,7 +188,7 @@ export const testimonials = [
     role: "Cyberleap",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
+      "Integrating DevLaunch was seamless. It’s made our daily tasks more efficient, and project management is now a breeze.",
   },
   {
     id: "4",
@@ -196,7 +196,7 @@ export const testimonials = [
     role: "Floclips",
     avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+      "The performance boost is clear. DevLaunch has completely transformed how we approach development and project scalability."
   },
   {
     id: "5",
@@ -204,7 +204,7 @@ export const testimonials = [
     role: "Vid capital intl",
     avatarUrl: "/images/testimonials/jim-bradley.png",
     comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+      "The insights provided by DevLaunch are like having a roadmap for our entire development process. It’s been crucial for guiding our technical decisions.",
   },
 ];
 
@@ -401,6 +401,98 @@ export const links = [
   },
 ];
 
+export const teamMembers = [
+  {
+    id: 1,
+    name: "Akshat Srivastava",
+    photo: "/images/team/akshat.jpeg", // Ensure this path points to your photo
+    socials:{
+    instagram: "https://www.instagram.com/lost.rice/ ",
+    linkedin: "https://www.linkedin.com/in/akshat-srivastava-093456264/",
+    github: "https://github.com/LostNSeeker",
+    },
+  },
+  {
+    id: 2,
+    name: "Ankit Kumar Soni",
+    photo: "/images/team/ankit.jpg",
+    socials:{
+    instagram: "https://www.instagram.com/a.n.k.i.t__s.o.n.i/",
+    linkedin: "https://www.linkedin.com/in/blackstocks/",
+    github: "https://github.com/Blackstocks",
+    },
+  },
+  {
+    id: 3,
+    name: "Gopi Kant",
+    photo: "/images/team/gopi.jpeg",
+    socials:{
+    instagram: "https://www.instagram.com/44g.kant99/",
+    linkedin: "https://www.linkedin.com/in/gopi-kant",
+    github: "https://github.com/gopikant21 ",
+    }
+  },
+  {
+    id: 4,
+    name: "Shashi Bhushan",
+    photo: "/images/team/shashi.jpg",
+    socials:{
+    instagram: "https://instagram.com/shashi_visuals",
+    linkedin: "https://linkedin.com/in/shashi-bhushan22gg10043",
+    github: "https://github.com/Xprofess0r",
+    },
+  },
+  {
+    id: 5,
+    name: "Aditya Raj",
+    photo: "/images/team/aditya.jpg",
+    socials:{
+    instagram: "https://www.instagram.com/sudo_aditya_/",
+    linkedin: "https://www.linkedin.com/in/aditya-raj-shit-b30129258/",
+    github: "https://github.com/AdityaRaj212",
+    },
+  },
+  {
+    id: 6,
+    name: "Bipin Kumar",
+    photo: "/images/team/bipin.jpg",
+    socials:{
+    instagram: "https://www.instagram.com/bipinkumar2111/",
+    linkedin: "https://www.linkedin.com/in/bipin-kumar-iitkgp/",
+    github: "https://github.com/bipinkumar8521",
+    },
+  },
+  {
+    id: 7,
+    name: "Alicia Barker",
+    photo: "/images/testimonials/alicia-barker.png",
+    socials:{
+    instagram: "https://instagram.com/shashi_visuals",
+    linkedin: "https://linkedin.com/in/shashi-bhushan22gg10043",
+    github: "https://github.com/Xprofess0r",
+    },
+  },
+  {
+    id: 8,
+    name: "Jim Bradley",
+    photo: "/images/testimonials/jim-bradley.png",
+    socials:{
+    instagram: "https://instagram.com/shashi_visuals",
+    linkedin: "https://linkedin.com/in/shashi-bhushan22gg10043",
+    github: "https://github.com/Xprofess0r",
+    },
+  },
+  {
+    id: 9,
+    name: "Becky Snider",
+    photo: "/images/testimonials/becky-snider.png",
+    socials:{
+    instagram: "https://instagram.com/shashi_visuals",
+    linkedin: "https://linkedin.com/in/shashi-bhushan22gg10043",
+    github: "https://github.com/Xprofess0r",
+    },
+  },
+];
 export const socials = [
   {
     id: "0",
@@ -414,16 +506,12 @@ export const socials = [
     icon: "/images/socials/threads.svg",
     url: "#",
   },
-  {
-    id: "2",
-    title: "Instagram",
-    icon: "/images/socials/instagram.svg",
-    url: "#",
-  },
+ 
   {
     id: "3",
     title: "Discord",
     icon: "/images/socials/discord.svg",
     url: "#",
   },
+
 ];

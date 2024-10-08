@@ -4,25 +4,30 @@ export default {
   theme: {
     extend: {
       colors: {
-        p1: '#2EF2FF',
-        p2: '#3C52D9',
-        p3: '#C8EA80',
-        p4: '#EAEDFF',
-        p5: '#C4CBF5',
-        s1: '#080D27',
-        s2: '#0C1838',
-        s3: '#334679',
-        s4: '#1959AD',
-        s5: '#263466',
+        // Primary Colors (Purples)
+        p1: '#b4b2b8', // Light purple
+        p2: '#8b47e5', // Main purple
+        p3: '#b107fa', // Slightly darker purple
+        p4: '#ffffff', // Lighter purple tone for text
+        p5: '#9B7DD4', // Lighter purple for subtle accents
+
+        // Secondary Colors (Darker Purples & Blacks)
+        s1: '#1f0e2e', // Very dark purple (almost black)
+        s2: '#350d4a', // Dark purple
+        s3: '#382657', // Darker purple shade
+        s4: '#6749A9', // Deep purple for borders or highlights
+        s5: '#4A387B', // Mid-tone purple for highlights
+
+        // Black and Gray
         black: {
-          DEFAULT: '#000000',
-          100: '#05091D',
+          DEFAULT: '#000000', // Solid black
+          100: '#05091D', // Very dark grayish black
         },
       },
       boxShadow: {
-        100: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #1959AD',
-        200: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 4px 10px #3391FF',
-        300: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #1959AD',
+        100: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #6749A9', // Use deep purple in shadow
+        200: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 4px 10px #8247E5', // Use purple in shadow
+        300: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #562ECF',
         400: 'inset 0px 2px 4px 0 rgba(255, 255, 255, 0.05)',
         500: '0px 16px 24px rgba(0, 0, 0, 0.25), 0px -14px 48px rgba(40, 51, 111, 0.7)',
       },
