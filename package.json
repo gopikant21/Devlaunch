@@ -5,6 +5,8 @@
   "type": "module",
   "homepage": "https://xprofess0r.github.io/Devlaunch/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "install": "npm install --legacy-peer-deps",
     "build": "vite build",
     "dev": "vite",
