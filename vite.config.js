@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/Devlaunch/' : '/',
   plugins: [react()],
+  resolve: {
+    alias: {
+      // You can add any other necessary aliases here if needed in the future
+    },
+  },
 });
